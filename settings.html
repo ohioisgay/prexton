@@ -1,0 +1,25 @@
+<div id="settingsModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2>Settings</h2>
+            <span class="close-btn">&times;</span>
+        </div>
+        
+        <div class="setting-item">
+            <label>Change Background (URL):</label>
+            <input type="text" id="bgInput" placeholder="Paste image link here...">
+            <button onclick="applyBackground()">Apply</button>
+        </div>
+
+        <div class="setting-item">
+            <label>Tab Cloaking (Title):</label>
+            <input type="text" id="titleInput" placeholder="e.g. Google Docs">
+            <button onclick="applyTitle()">Save</button>
+        </div>
+
+        <div class="setting-item">
+            <label>Reset Theme:</label>
+            <button class="danger-btn" onclick="resetSettings()">Reset to Default</button>
+        </div>
+    </div>
+</div>
